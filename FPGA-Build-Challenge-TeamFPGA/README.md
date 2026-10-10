@@ -141,4 +141,5 @@ log -r /*; run -all; quit -f
 - Xilinx 7-series DSP48E1 and Block RAM user manuals
 - NIST SP 800-22 statistical test suite
 - PicoRV32 and RISC-V ISA documentation
-- von Neumann bias correction methodology
+- von Neumann bias correction methodology#   F P G A - B u i l d - C h a l l e n g e - T O U C H G R A S S  
+ 
