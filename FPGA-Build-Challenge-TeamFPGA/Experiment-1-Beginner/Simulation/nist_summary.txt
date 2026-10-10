@@ -1,0 +1,13 @@
+Loaded 8528 bits from sim\trng_bits.txt (ones=4239, ones_ratio=0.4971)
+PASS  Approximate Entropy                      p=0.761417
+PASS  Cumulative Sums                          p=0.431771
+PASS  Discrete Fourier Transform               p=0.499217
+PASS  Frequency Within Block                   p=0.366085
+PASS  Longest Run Ones In A Block              p=0.372729
+PASS  Monobit                                  p=0.588208
+PASS  Non Overlapping Template Matching        p=0.999466
+FAIL  Random Excursion                         p=0.038930
+PASS  Random Excursion Variant                 p=0.492089
+PASS  Runs                                     p=0.620626
+PASS  Serial                                   p=0.722988
+Summary: 10 passed, 1 failed, 0 errored, 11 eligible of 15 suite tests

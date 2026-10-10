@@ -1,0 +1,20 @@
+# do run_sim.do
+# Project file C:/Projects/FPGA_projects/fpga-projects/02-riscv-soc-accelerator/sim/..mpf was not found.
+# Unable to open project.
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:54:14 on Sep 09,2026
+# vlog -sv rtl/mem_map_pkg.sv rtl/axi_ram.sv rtl/crc32_accel.sv rtl/bus_interconnect.sv rtl/mem2axi_lite.sv rtl/soc_top.sv "+define+SOC_TOP_WITH_BFM" tb/tb_bus_bfm.sv tb/tb_crc_dbg.sv tb/tb_soc_top.sv 
+# ** Error: (vlog-7) Failed to open design unit file "rtl/mem_map_pkg.sv" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 11:54:14 on Sep 09,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./run_sim.do line 18
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -sv rtl/mem_map_pkg.sv \
+#          rtl/axi_ram.sv \
+#          rtl/crc32_accel.sv \
+#          rtl/bus_interconnect.sv \
+#          rtl/mem2axi_lite.sv ..."
+#  quit -f

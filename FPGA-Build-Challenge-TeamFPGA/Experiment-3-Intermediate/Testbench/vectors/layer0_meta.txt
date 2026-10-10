@@ -1,0 +1,1 @@
+npar=8 klen=16 shift=7

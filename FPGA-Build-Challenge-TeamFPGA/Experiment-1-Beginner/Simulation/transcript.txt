@@ -1,0 +1,92 @@
+# do run_sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:58:56 on Sep 10,2026
+# vlog -sv ../rtl/entropy_source.sv 
+# -- Compiling module entropy_source
+# ** Warning: ../rtl/entropy_source.sv(42): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ../rtl/entropy_source.sv(44): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# 	entropy_source
+# End time: 00:58:56 on Sep 10,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:58:56 on Sep 10,2026
+# vlog -sv ../rtl/cdc_sync.sv 
+# -- Compiling module cdc_sync
+# 
+# Top level modules:
+# 	cdc_sync
+# End time: 00:58:56 on Sep 10,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:58:56 on Sep 10,2026
+# vlog -sv ../rtl/vn_corrector.sv 
+# -- Compiling module vn_corrector
+# 
+# Top level modules:
+# 	vn_corrector
+# End time: 00:58:56 on Sep 10,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:58:56 on Sep 10,2026
+# vlog -sv ../rtl/trng_fifo.sv 
+# -- Compiling module trng_fifo
+# 
+# Top level modules:
+# 	trng_fifo
+# End time: 00:58:57 on Sep 10,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:58:57 on Sep 10,2026
+# vlog -sv ../rtl/trng_top.sv 
+# -- Compiling module trng_top
+# 
+# Top level modules:
+# 	trng_top
+# End time: 00:58:57 on Sep 10,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:58:57 on Sep 10,2026
+# vlog -sv ../tb/tb_trng_top.sv 
+# -- Compiling module tb_trng_top
+# 
+# Top level modules:
+# 	tb_trng_top
+# End time: 00:58:57 on Sep 10,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c work.tb_trng_top 
+# Start time: 00:58:59 on Sep 10,2026
+# Loading sv_std.std
+# Loading work.tb_trng_top
+# Loading work.trng_top
+# Loading work.cdc_sync
+# Loading work.vn_corrector
+# Loading work.trng_fifo
+# == tb_trng_top start ==
+# [1] fixed-pattern scoreboard
+# [1] dut outputs=509 ref0=256 ref1=510 m0=128 m1=509
+# [2] bias removal p=0.9
+# [2] valid=1727 ones=854 frac=0.4945
+# [3a] deterministic all-same integrity check (DUT reset first)
+# [3a] post-flush cnt=0 tv=0
+# [3a] lead word 0 = 00
+# [3a] lead word 1 = 00
+# [3a] lead word 2 = 00
+# [3a] lead word 3 = 00
+# [3a] ptr wr=11 rd=11 drain_rd=0
+# [3a] vn_3a=1498 drained=187 written=187 fifo wr=187 rd=187 first=00
+# [3b] uniform chi2 (p=0.5, DUT reset first)
+# [3b] words=1066 nibbles=2132 chi2=9.055 (sanity limit 45)
+# [4] backpressure hold with deterministic source
+# [4] hold packed=7 drained=7
+# [5] reset mid-run
+# *** ALL CHECKS PASSED (tb_trng_top) ***
+# ** Note: $finish    : ../tb/tb_trng_top.sv(376)
+#    Time: 584785 ns  Iteration: 1  Instance: /tb_trng_top
+# End time: 00:58:59 on Sep 10,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

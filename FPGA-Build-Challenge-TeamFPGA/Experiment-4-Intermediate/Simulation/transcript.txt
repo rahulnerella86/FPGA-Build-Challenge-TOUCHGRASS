@@ -1,0 +1,74 @@
+# do run_sim.do
+# Project file C:/Projects/FPGA_projects/fpga-projects/04-sram-pim-cnn/sim/..mpf was not found.
+# Unable to open project.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:31:53 on Sep 09,2026
+# vlog -sv ../rtl/pim_mac_bram.sv ../tb/pim_mac_tb.sv 
+# -- Compiling module pim_mac_bram
+# -- Compiling module tb_pim_mac
+# 
+# Top level modules:
+# 	tb_pim_mac
+# End time: 03:31:53 on Sep 09,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -suppress 3534 work.tb_pim_mac 
+# Start time: 03:31:53 on Sep 09,2026
+# Loading sv_std.std
+# Loading work.tb_pim_mac
+# Loading work.pim_mac_bram
+# == tb_pim_mac start (ROWS=4 COLS=8) ==
+# [P1] known-answer pattern
+# [P1] rows checked vs ref
+# [P2] random x30
+# [P2/it0] rows checked vs ref
+# [P2/it1] rows checked vs ref
+# [P2/it2] rows checked vs ref
+# [P2/it3] rows checked vs ref
+# [P2/it4] rows checked vs ref
+# [P2/it5] rows checked vs ref
+# [P2/it6] rows checked vs ref
+# [P2/it7] rows checked vs ref
+# [P2/it8] rows checked vs ref
+# [P2/it9] rows checked vs ref
+# [P2/it10] rows checked vs ref
+# [P2/it11] rows checked vs ref
+# [P2/it12] rows checked vs ref
+# [P2/it13] rows checked vs ref
+# [P2/it14] rows checked vs ref
+# [P2/it15] rows checked vs ref
+# [P2/it16] rows checked vs ref
+# [P2/it17] rows checked vs ref
+# [P2/it18] rows checked vs ref
+# [P2/it19] rows checked vs ref
+# [P2/it20] rows checked vs ref
+# [P2/it21] rows checked vs ref
+# [P2/it22] rows checked vs ref
+# [P2/it23] rows checked vs ref
+# [P2/it24] rows checked vs ref
+# [P2/it25] rows checked vs ref
+# [P2/it26] rows checked vs ref
+# [P2/it27] rows checked vs ref
+# [P2/it28] rows checked vs ref
+# [P2/it29] rows checked vs ref
+# [P3] corners
+# [P3/zeros] rows checked vs ref
+# [P3/max] rows checked vs ref
+# [P3/min] rows checked vs ref
+# [P3/minmax] rows checked vs ref
+# [P4] reset mid-compute
+# [P4/recover] rows checked vs ref
+# [P5] back-to-back + read protocol
+# [P5/run1] rows checked vs ref
+# [P5/run2] rows checked vs ref
+# [P5/stray] rows checked vs ref
+# [P6] python golden vectors present - checking
+# [P6] golden cross-check done
+# *** ALL CHECKS PASSED (tb_pim_mac) ***
+# ** Note: $finish    : ../tb/pim_mac_tb.sv(252)
+#    Time: 34955 ns  Iteration: 1  Instance: /tb_pim_mac
+# End time: 03:31:53 on Sep 09,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0, Suppressed Warnings: 3
